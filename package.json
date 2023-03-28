@@ -1,0 +1,30 @@
+{
+  "name": "VonderNote",
+  "version": "0.1.0",
+  "description": "now testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "javandr",
+  "license": "ISC",
+  "build": {
+    "appId": "your.app.id",
+    "productName": "VonderNote",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
+
