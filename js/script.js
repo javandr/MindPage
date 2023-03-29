@@ -49,7 +49,7 @@ saveButton.addEventListener('click', () => {
 });
 
 
-
+// button open
 document.querySelector('.open_file').addEventListener('click', function() {
   const fileInput = document.createElement('input');
   fileInput.type = 'file';
@@ -88,4 +88,9 @@ document.querySelector('.open_file').addEventListener('click', function() {
   fileInput.click();
 });
 
+// function
+window.addEventListener('beforeunload', function(e) {
+  e.preventDefault();
+  e.returnValue = '';
+});
 
