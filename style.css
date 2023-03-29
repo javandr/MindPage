@@ -88,4 +88,12 @@ button:hover {
     }
 }
 
-nav {float: right;}
+.save_file {
+  margin-left: 10px;
+}
+
+.func_btn {float: right;}
+
+.theme_open {
+  float: left;
+}
